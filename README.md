@@ -226,6 +226,8 @@ Developed using the SplashKit graphics library for FIT1045.
 
 Sprites were acquired from [spriters-resource.com](https://www.spriters-resource.com/) and are credited to user Superjustinbros.
 
+This README (and much of the program) was generated with assistance by GitHub Copilot.
+
 ## License
 
 Educational project - all rights reserved.
