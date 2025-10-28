@@ -3,5 +3,5 @@ v*.exe
 
 # Ignore debug and log files
 myeasylog.log
-consolidated_code
+consolidated_code.txt
 
