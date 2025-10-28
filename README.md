@@ -209,7 +209,6 @@ A precompiled executable is included in the repository:
 - **Movement**: Delta-time based for smooth, frame-independent motion
 - **Grid Alignment**: Entities snap to grid for precise corner turning
 - **Collision Distance**: 20 pixels for entity interactions
-- **Sprite Scale**: 1.584x for crisp rendering
 - **Cell Size**: 40x40 pixels
 
 ## Known Features
