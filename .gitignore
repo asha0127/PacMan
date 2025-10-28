@@ -1,0 +1,2 @@
+# Ignore all vx.exe files (v1.exe, v2.exe, ..., v99.exe, etc.)
+v*.exe
