@@ -204,9 +204,12 @@ clang++ -std=c++17 main.cpp game.cpp menu.cpp entities.cpp maze.cpp \
 - Background chase music progresses through 5 tracks as pellets decrease
 - Tunnel wrapping allows seamless screen edge teleportation
 
+
 ## Credits
 
 Developed using the SplashKit graphics library for FIT1045.
+
+Sprites were acquired from [spriters-resource.com](https://www.spriters-resource.com/) and are credited to user Superjustinbros.
 
 ## License
 
