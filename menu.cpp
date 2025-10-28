@@ -28,6 +28,7 @@ Menu::Menu()
     : current_state_(MenuState::MAIN_MENU),
       selected_option_(0),
       should_start_game_(false),
+      should_quit_(false),
       last_input_time_(0.0),
       selected_palette_index_(0),
       sprite_sheet_(nullptr),
@@ -153,6 +154,10 @@ void Menu::handle_main_menu_input()
             break;
         case MainMenuOption::SETTINGS:
             current_state_ = MenuState::SETTINGS;
+            break;
+        case MainMenuOption::QUIT:
+            // Set flag to signal game should quit
+            should_quit_ = true;
             break;
         default:
             break;
@@ -538,10 +543,10 @@ void Menu::render_main_menu()
 
     // Menu options
     const int option_size = 30;
-    const int option_start_y = window_height / 2 - 15;
+    const int option_start_y = window_height / 2 - 35; // Shifted up by 10 pixels
     const int option_spacing = 50;
 
-    const char *options[] = {"PLAY ENDLESS", "PLAY LEVEL SELECT", "CHANGE DIFFICULTY", "VIEW HIGH SCORES", "SETTINGS"};
+    const char *options[] = {"PLAY ENDLESS", "PLAY LEVEL SELECT", "CHANGE DIFFICULTY", "VIEW HIGH SCORES", "SETTINGS", "QUIT"};
 
     for (int i = 0; i < static_cast<int>(MainMenuOption::COUNT); i++)
     {

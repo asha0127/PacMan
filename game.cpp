@@ -19,8 +19,8 @@ using namespace MazeConfig;
  * @brief Constructor - initializes game with default state
  */
 Game::Game()
-    : running_(false), game_initialized_(false), last_time_(0.0),
-      current_game_mode_(GameMode::STARTING), previous_game_mode_(GameMode::STARTING),
+    : running_(false), game_initialized_(false), paused_(false), escape_key_cooldown_(0.0),
+      last_time_(0.0), current_game_mode_(GameMode::STARTING), previous_game_mode_(GameMode::STARTING),
       current_level_(1)
 {
 }
@@ -86,6 +86,13 @@ void Game::run()
         // Check if we're in the menu or in-game
         if (menu_->get_state() != MenuState::IN_GAME)
         {
+            // Check if user has selected to quit
+            if (menu_->should_quit_game())
+            {
+                running_ = false;
+                break;
+            }
+
             // Handle menu navigation
             menu_->handle_input();
             menu_->render();
@@ -114,17 +121,68 @@ void Game::run()
         else
         {
             // In-game loop
-            handle_events();
-            update(delta_time);
-            render();
-            refresh_screen(GameConfig::TARGET_FPS);
+
+            // Update escape key cooldown timer
+            if (escape_key_cooldown_ > 0.0)
+            {
+                escape_key_cooldown_ -= delta_time;
+            }
+
+            // Check for pause toggle first (right after process_events)
+            if (!paused_ && escape_key_cooldown_ <= 0.0 && key_typed(ESCAPE_KEY))
+            {
+                paused_ = true;
+                escape_key_cooldown_ = 0.3; // 300ms cooldown
+                // Pause all background sounds when pausing
+                sound_manager_->stop_all_background_sounds();
+            }
+
+            // Handle pause menu
+            if (paused_)
+            {
+                // Check for resume (spacebar) or return to menu (escape)
+                if (key_typed(SPACE_KEY))
+                {
+                    paused_ = false;
+                    escape_key_cooldown_ = 0.3; // 300ms cooldown after unpausing
+                }
+                else if (escape_key_cooldown_ <= 0.0 && key_typed(ESCAPE_KEY))
+                {
+                    // Return to main menu
+                    paused_ = false;
+                    escape_key_cooldown_ = 0.3; // 300ms cooldown
+                    menu_->set_state(MenuState::MAIN_MENU);
+                    game_initialized_ = false;
+                    sound_manager_->stop_all_background_sounds();
+                }
+
+                // Render game state with pause overlay
+                render();
+
+                // Draw pause menu with semi-transparent overlay
+                fill_rectangle(rgba_color(0, 0, 0, 180), 0, 0, WINDOW_WIDTH, WINDOW_HEIGHT);
+                draw_text("PAUSED", COLOR_WHITE, "Arial", 72, WINDOW_WIDTH / 2 - 120, WINDOW_HEIGHT / 2 - 100);
+                draw_text("YELLOW - Resume", COLOR_WHITE, "Arial", 32, WINDOW_WIDTH / 2 - 120, WINDOW_HEIGHT / 2);
+                draw_text("RED - Main Menu", COLOR_WHITE, "Arial", 32, WINDOW_WIDTH / 2 - 120, WINDOW_HEIGHT / 2 + 50);
+
+                refresh_screen(GameConfig::TARGET_FPS);
+            }
+            else
+            {
+                // Normal gameplay
+                handle_events();
+                update(delta_time);
+                render();
+                refresh_screen(GameConfig::TARGET_FPS);
+            }
         }
     }
 }
 
 void Game::handle_events()
 {
-    process_events();
+    // Note: process_events() is already called in run() loop
+    // Just capture Pacman input here
     pacman_->capture_input();
 }
 

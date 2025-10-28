@@ -1,4 +1,4 @@
-Attempting to load: Resources/Maps/level5.csv
+Attempting to load: Resources/Maps/level1.csv
 File opened successfully!
 Starting to read lines...
 Read line 1 with length: 49
@@ -84,7 +84,7 @@ Stringstream created, starting cell loop...
 Line 1: parsed 25 columns
 Read line 2 with length: 49
 Parsing line 2
-Line content: [1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1]
+Line content: [1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1]
 Creating stringstream...
 Stringstream created, starting cell loop...
   Cell 1: '1'
@@ -123,9 +123,9 @@ Stringstream created, starting cell loop...
   Cell 12: '0'
   Cell 12 after trim: '0'
   Cell 12 converted to: 0
-  Cell 13: '0'
-  Cell 13 after trim: '0'
-  Cell 13 converted to: 0
+  Cell 13: '1'
+  Cell 13 after trim: '1'
+  Cell 13 converted to: 1
   Cell 14: '0'
   Cell 14 after trim: '0'
   Cell 14 converted to: 0
@@ -165,7 +165,7 @@ Stringstream created, starting cell loop...
 Line 2: parsed 25 columns
 Read line 3 with length: 49
 Parsing line 3
-Line content: [1,0,1,1,0,1,0,1,1,1,0,1,0,0,1,0,0,1,0,1,0,1,1,0,1]
+Line content: [1,0,1,1,0,1,1,1,0,1,1,0,1,0,1,1,0,1,1,1,0,1,1,0,1]
 Creating stringstream...
 Stringstream created, starting cell loop...
   Cell 1: '1'
@@ -186,111 +186,30 @@ Stringstream created, starting cell loop...
   Cell 6: '1'
   Cell 6 after trim: '1'
   Cell 6 converted to: 1
-  Cell 7: '0'
-  Cell 7 after trim: '0'
-  Cell 7 converted to: 0
+  Cell 7: '1'
+  Cell 7 after trim: '1'
+  Cell 7 converted to: 1
   Cell 8: '1'
   Cell 8 after trim: '1'
   Cell 8 converted to: 1
-  Cell 9: '1'
-  Cell 9 after trim: '1'
-  Cell 9 converted to: 1
+  Cell 9: '0'
+  Cell 9 after trim: '0'
+  Cell 9 converted to: 0
   Cell 10: '1'
   Cell 10 after trim: '1'
   Cell 10 converted to: 1
-  Cell 11: '0'
-  Cell 11 after trim: '0'
-  Cell 11 converted to: 0
-  Cell 12: '1'
-  Cell 12 after trim: '1'
-  Cell 12 converted to: 1
-  Cell 13: '0'
-  Cell 13 after trim: '0'
-  Cell 13 converted to: 0
+  Cell 11: '1'
+  Cell 11 after trim: '1'
+  Cell 11 converted to: 1
+  Cell 12: '0'
+  Cell 12 after trim: '0'
+  Cell 12 converted to: 0
+  Cell 13: '1'
+  Cell 13 after trim: '1'
+  Cell 13 converted to: 1
   Cell 14: '0'
   Cell 14 after trim: '0'
   Cell 14 converted to: 0
-  Cell 15: '1'
-  Cell 15 after trim: '1'
-  Cell 15 converted to: 1
-  Cell 16: '0'
-  Cell 16 after trim: '0'
-  Cell 16 converted to: 0
-  Cell 17: '0'
-  Cell 17 after trim: '0'
-  Cell 17 converted to: 0
-  Cell 18: '1'
-  Cell 18 after trim: '1'
-  Cell 18 converted to: 1
-  Cell 19: '0'
-  Cell 19 after trim: '0'
-  Cell 19 converted to: 0
-  Cell 20: '1'
-  Cell 20 after trim: '1'
-  Cell 20 converted to: 1
-  Cell 21: '0'
-  Cell 21 after trim: '0'
-  Cell 21 converted to: 0
-  Cell 22: '1'
-  Cell 22 after trim: '1'
-  Cell 22 converted to: 1
-  Cell 23: '1'
-  Cell 23 after trim: '1'
-  Cell 23 converted to: 1
-  Cell 24: '0'
-  Cell 24 after trim: '0'
-  Cell 24 converted to: 0
-  Cell 25: '1'
-  Cell 25 after trim: '1'
-  Cell 25 converted to: 1
-Line 3: parsed 25 columns
-Read line 4 with length: 49
-Parsing line 4
-Line content: [1,0,1,0,0,1,0,0,1,0,0,1,0,1,1,1,0,1,1,1,0,1,0,0,1]
-Creating stringstream...
-Stringstream created, starting cell loop...
-  Cell 1: '1'
-  Cell 1 after trim: '1'
-  Cell 1 converted to: 1
-  Cell 2: '0'
-  Cell 2 after trim: '0'
-  Cell 2 converted to: 0
-  Cell 3: '1'
-  Cell 3 after trim: '1'
-  Cell 3 converted to: 1
-  Cell 4: '0'
-  Cell 4 after trim: '0'
-  Cell 4 converted to: 0
-  Cell 5: '0'
-  Cell 5 after trim: '0'
-  Cell 5 converted to: 0
-  Cell 6: '1'
-  Cell 6 after trim: '1'
-  Cell 6 converted to: 1
-  Cell 7: '0'
-  Cell 7 after trim: '0'
-  Cell 7 converted to: 0
-  Cell 8: '0'
-  Cell 8 after trim: '0'
-  Cell 8 converted to: 0
-  Cell 9: '1'
-  Cell 9 after trim: '1'
-  Cell 9 converted to: 1
-  Cell 10: '0'
-  Cell 10 after trim: '0'
-  Cell 10 converted to: 0
-  Cell 11: '0'
-  Cell 11 after trim: '0'
-  Cell 11 converted to: 0
-  Cell 12: '1'
-  Cell 12 after trim: '1'
-  Cell 12 converted to: 1
-  Cell 13: '0'
-  Cell 13 after trim: '0'
-  Cell 13 converted to: 0
-  Cell 14: '1'
-  Cell 14 after trim: '1'
-  Cell 14 converted to: 1
   Cell 15: '1'
   Cell 15 after trim: '1'
   Cell 15 converted to: 1
@@ -315,87 +234,6 @@ Stringstream created, starting cell loop...
   Cell 22: '1'
   Cell 22 after trim: '1'
   Cell 22 converted to: 1
-  Cell 23: '0'
-  Cell 23 after trim: '0'
-  Cell 23 converted to: 0
-  Cell 24: '0'
-  Cell 24 after trim: '0'
-  Cell 24 converted to: 0
-  Cell 25: '1'
-  Cell 25 after trim: '1'
-  Cell 25 converted to: 1
-Line 4: parsed 25 columns
-Read line 5 with length: 49
-Parsing line 5
-Line content: [1,0,1,1,0,1,0,0,1,0,0,1,0,1,1,1,0,0,0,1,0,0,1,0,1]
-Creating stringstream...
-Stringstream created, starting cell loop...
-  Cell 1: '1'
-  Cell 1 after trim: '1'
-  Cell 1 converted to: 1
-  Cell 2: '0'
-  Cell 2 after trim: '0'
-  Cell 2 converted to: 0
-  Cell 3: '1'
-  Cell 3 after trim: '1'
-  Cell 3 converted to: 1
-  Cell 4: '1'
-  Cell 4 after trim: '1'
-  Cell 4 converted to: 1
-  Cell 5: '0'
-  Cell 5 after trim: '0'
-  Cell 5 converted to: 0
-  Cell 6: '1'
-  Cell 6 after trim: '1'
-  Cell 6 converted to: 1
-  Cell 7: '0'
-  Cell 7 after trim: '0'
-  Cell 7 converted to: 0
-  Cell 8: '0'
-  Cell 8 after trim: '0'
-  Cell 8 converted to: 0
-  Cell 9: '1'
-  Cell 9 after trim: '1'
-  Cell 9 converted to: 1
-  Cell 10: '0'
-  Cell 10 after trim: '0'
-  Cell 10 converted to: 0
-  Cell 11: '0'
-  Cell 11 after trim: '0'
-  Cell 11 converted to: 0
-  Cell 12: '1'
-  Cell 12 after trim: '1'
-  Cell 12 converted to: 1
-  Cell 13: '0'
-  Cell 13 after trim: '0'
-  Cell 13 converted to: 0
-  Cell 14: '1'
-  Cell 14 after trim: '1'
-  Cell 14 converted to: 1
-  Cell 15: '1'
-  Cell 15 after trim: '1'
-  Cell 15 converted to: 1
-  Cell 16: '1'
-  Cell 16 after trim: '1'
-  Cell 16 converted to: 1
-  Cell 17: '0'
-  Cell 17 after trim: '0'
-  Cell 17 converted to: 0
-  Cell 18: '0'
-  Cell 18 after trim: '0'
-  Cell 18 converted to: 0
-  Cell 19: '0'
-  Cell 19 after trim: '0'
-  Cell 19 converted to: 0
-  Cell 20: '1'
-  Cell 20 after trim: '1'
-  Cell 20 converted to: 1
-  Cell 21: '0'
-  Cell 21 after trim: '0'
-  Cell 21 converted to: 0
-  Cell 22: '0'
-  Cell 22 after trim: '0'
-  Cell 22 converted to: 0
   Cell 23: '1'
   Cell 23 after trim: '1'
   Cell 23 converted to: 1
@@ -405,10 +243,10 @@ Stringstream created, starting cell loop...
   Cell 25: '1'
   Cell 25 after trim: '1'
   Cell 25 converted to: 1
-Line 5: parsed 25 columns
-Read line 6 with length: 49
-Parsing line 6
-Line content: [1,0,1,0,0,1,0,0,1,0,0,1,0,0,1,0,0,0,0,1,0,1,1,0,1]
+Line 3: parsed 25 columns
+Read line 4 with length: 49
+Parsing line 4
+Line content: [1,0,1,0,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,1,0,1]
 Creating stringstream...
 Stringstream created, starting cell loop...
   Cell 1: '1'
@@ -426,30 +264,30 @@ Stringstream created, starting cell loop...
   Cell 5: '0'
   Cell 5 after trim: '0'
   Cell 5 converted to: 0
-  Cell 6: '1'
-  Cell 6 after trim: '1'
-  Cell 6 converted to: 1
+  Cell 6: '0'
+  Cell 6 after trim: '0'
+  Cell 6 converted to: 0
   Cell 7: '0'
   Cell 7 after trim: '0'
   Cell 7 converted to: 0
   Cell 8: '0'
   Cell 8 after trim: '0'
   Cell 8 converted to: 0
-  Cell 9: '1'
-  Cell 9 after trim: '1'
-  Cell 9 converted to: 1
+  Cell 9: '0'
+  Cell 9 after trim: '0'
+  Cell 9 converted to: 0
   Cell 10: '0'
   Cell 10 after trim: '0'
   Cell 10 converted to: 0
-  Cell 11: '0'
-  Cell 11 after trim: '0'
-  Cell 11 converted to: 0
-  Cell 12: '1'
-  Cell 12 after trim: '1'
-  Cell 12 converted to: 1
-  Cell 13: '0'
-  Cell 13 after trim: '0'
-  Cell 13 converted to: 0
+  Cell 11: '1'
+  Cell 11 after trim: '1'
+  Cell 11 converted to: 1
+  Cell 12: '0'
+  Cell 12 after trim: '0'
+  Cell 12 converted to: 0
+  Cell 13: '1'
+  Cell 13 after trim: '1'
+  Cell 13 converted to: 1
   Cell 14: '0'
   Cell 14 after trim: '0'
   Cell 14 converted to: 0
@@ -468,12 +306,174 @@ Stringstream created, starting cell loop...
   Cell 19: '0'
   Cell 19 after trim: '0'
   Cell 19 converted to: 0
-  Cell 20: '1'
-  Cell 20 after trim: '1'
-  Cell 20 converted to: 1
+  Cell 20: '0'
+  Cell 20 after trim: '0'
+  Cell 20 converted to: 0
   Cell 21: '0'
   Cell 21 after trim: '0'
   Cell 21 converted to: 0
+  Cell 22: '0'
+  Cell 22 after trim: '0'
+  Cell 22 converted to: 0
+  Cell 23: '1'
+  Cell 23 after trim: '1'
+  Cell 23 converted to: 1
+  Cell 24: '0'
+  Cell 24 after trim: '0'
+  Cell 24 converted to: 0
+  Cell 25: '1'
+  Cell 25 after trim: '1'
+  Cell 25 converted to: 1
+Line 4: parsed 25 columns
+Read line 5 with length: 49
+Parsing line 5
+Line content: [1,0,0,0,1,0,1,0,1,0,0,0,1,0,0,0,1,0,1,0,1,0,0,0,1]
+Creating stringstream...
+Stringstream created, starting cell loop...
+  Cell 1: '1'
+  Cell 1 after trim: '1'
+  Cell 1 converted to: 1
+  Cell 2: '0'
+  Cell 2 after trim: '0'
+  Cell 2 converted to: 0
+  Cell 3: '0'
+  Cell 3 after trim: '0'
+  Cell 3 converted to: 0
+  Cell 4: '0'
+  Cell 4 after trim: '0'
+  Cell 4 converted to: 0
+  Cell 5: '1'
+  Cell 5 after trim: '1'
+  Cell 5 converted to: 1
+  Cell 6: '0'
+  Cell 6 after trim: '0'
+  Cell 6 converted to: 0
+  Cell 7: '1'
+  Cell 7 after trim: '1'
+  Cell 7 converted to: 1
+  Cell 8: '0'
+  Cell 8 after trim: '0'
+  Cell 8 converted to: 0
+  Cell 9: '1'
+  Cell 9 after trim: '1'
+  Cell 9 converted to: 1
+  Cell 10: '0'
+  Cell 10 after trim: '0'
+  Cell 10 converted to: 0
+  Cell 11: '0'
+  Cell 11 after trim: '0'
+  Cell 11 converted to: 0
+  Cell 12: '0'
+  Cell 12 after trim: '0'
+  Cell 12 converted to: 0
+  Cell 13: '1'
+  Cell 13 after trim: '1'
+  Cell 13 converted to: 1
+  Cell 14: '0'
+  Cell 14 after trim: '0'
+  Cell 14 converted to: 0
+  Cell 15: '0'
+  Cell 15 after trim: '0'
+  Cell 15 converted to: 0
+  Cell 16: '0'
+  Cell 16 after trim: '0'
+  Cell 16 converted to: 0
+  Cell 17: '1'
+  Cell 17 after trim: '1'
+  Cell 17 converted to: 1
+  Cell 18: '0'
+  Cell 18 after trim: '0'
+  Cell 18 converted to: 0
+  Cell 19: '1'
+  Cell 19 after trim: '1'
+  Cell 19 converted to: 1
+  Cell 20: '0'
+  Cell 20 after trim: '0'
+  Cell 20 converted to: 0
+  Cell 21: '1'
+  Cell 21 after trim: '1'
+  Cell 21 converted to: 1
+  Cell 22: '0'
+  Cell 22 after trim: '0'
+  Cell 22 converted to: 0
+  Cell 23: '0'
+  Cell 23 after trim: '0'
+  Cell 23 converted to: 0
+  Cell 24: '0'
+  Cell 24 after trim: '0'
+  Cell 24 converted to: 0
+  Cell 25: '1'
+  Cell 25 after trim: '1'
+  Cell 25 converted to: 1
+Line 5: parsed 25 columns
+Read line 6 with length: 49
+Parsing line 6
+Line content: [1,0,1,1,1,0,1,0,1,1,1,0,0,0,1,1,1,0,1,0,1,1,1,0,1]
+Creating stringstream...
+Stringstream created, starting cell loop...
+  Cell 1: '1'
+  Cell 1 after trim: '1'
+  Cell 1 converted to: 1
+  Cell 2: '0'
+  Cell 2 after trim: '0'
+  Cell 2 converted to: 0
+  Cell 3: '1'
+  Cell 3 after trim: '1'
+  Cell 3 converted to: 1
+  Cell 4: '1'
+  Cell 4 after trim: '1'
+  Cell 4 converted to: 1
+  Cell 5: '1'
+  Cell 5 after trim: '1'
+  Cell 5 converted to: 1
+  Cell 6: '0'
+  Cell 6 after trim: '0'
+  Cell 6 converted to: 0
+  Cell 7: '1'
+  Cell 7 after trim: '1'
+  Cell 7 converted to: 1
+  Cell 8: '0'
+  Cell 8 after trim: '0'
+  Cell 8 converted to: 0
+  Cell 9: '1'
+  Cell 9 after trim: '1'
+  Cell 9 converted to: 1
+  Cell 10: '1'
+  Cell 10 after trim: '1'
+  Cell 10 converted to: 1
+  Cell 11: '1'
+  Cell 11 after trim: '1'
+  Cell 11 converted to: 1
+  Cell 12: '0'
+  Cell 12 after trim: '0'
+  Cell 12 converted to: 0
+  Cell 13: '0'
+  Cell 13 after trim: '0'
+  Cell 13 converted to: 0
+  Cell 14: '0'
+  Cell 14 after trim: '0'
+  Cell 14 converted to: 0
+  Cell 15: '1'
+  Cell 15 after trim: '1'
+  Cell 15 converted to: 1
+  Cell 16: '1'
+  Cell 16 after trim: '1'
+  Cell 16 converted to: 1
+  Cell 17: '1'
+  Cell 17 after trim: '1'
+  Cell 17 converted to: 1
+  Cell 18: '0'
+  Cell 18 after trim: '0'
+  Cell 18 converted to: 0
+  Cell 19: '1'
+  Cell 19 after trim: '1'
+  Cell 19 converted to: 1
+  Cell 20: '0'
+  Cell 20 after trim: '0'
+  Cell 20 converted to: 0
+  Cell 21: '1'
+  Cell 21 after trim: '1'
+  Cell 21 converted to: 1
   Cell 22: '1'
   Cell 22 after trim: '1'
   Cell 22 converted to: 1
@@ -570,7 +570,7 @@ Stringstream created, starting cell loop...
 Line 7: parsed 25 columns
 Read line 8 with length: 49
 Parsing line 8
-Line content: [1,0,1,1,1,0,1,0,1,0,1,1,1,1,1,1,0,1,0,0,1,1,1,0,1]
+Line content: [1,0,1,1,1,0,1,0,1,1,1,0,0,0,1,1,1,0,1,0,1,1,1,0,1]
 Creating stringstream...
 Stringstream created, starting cell loop...
   Cell 1: '1'
@@ -600,36 +600,36 @@ Stringstream created, starting cell loop...
   Cell 9: '1'
   Cell 9 after trim: '1'
   Cell 9 converted to: 1
-  Cell 10: '0'
-  Cell 10 after trim: '0'
-  Cell 10 converted to: 0
+  Cell 10: '1'
+  Cell 10 after trim: '1'
+  Cell 10 converted to: 1
   Cell 11: '1'
   Cell 11 after trim: '1'
   Cell 11 converted to: 1
-  Cell 12: '1'
-  Cell 12 after trim: '1'
-  Cell 12 converted to: 1
-  Cell 13: '1'
-  Cell 13 after trim: '1'
-  Cell 13 converted to: 1
-  Cell 14: '1'
-  Cell 14 after trim: '1'
-  Cell 14 converted to: 1
+  Cell 12: '0'
+  Cell 12 after trim: '0'
+  Cell 12 converted to: 0
+  Cell 13: '0'
+  Cell 13 after trim: '0'
+  Cell 13 converted to: 0
+  Cell 14: '0'
+  Cell 14 after trim: '0'
+  Cell 14 converted to: 0
   Cell 15: '1'
   Cell 15 after trim: '1'
   Cell 15 converted to: 1
   Cell 16: '1'
   Cell 16 after trim: '1'
   Cell 16 converted to: 1
-  Cell 17: '0'
-  Cell 17 after trim: '0'
-  Cell 17 converted to: 0
-  Cell 18: '1'
-  Cell 18 after trim: '1'
-  Cell 18 converted to: 1
-  Cell 19: '0'
-  Cell 19 after trim: '0'
-  Cell 19 converted to: 0
+  Cell 17: '1'
+  Cell 17 after trim: '1'
+  Cell 17 converted to: 1
+  Cell 18: '0'
+  Cell 18 after trim: '0'
+  Cell 18 converted to: 0
+  Cell 19: '1'
+  Cell 19 after trim: '1'
+  Cell 19 converted to: 1
   Cell 20: '0'
   Cell 20 after trim: '0'
   Cell 20 converted to: 0
@@ -651,7 +651,7 @@ Stringstream created, starting cell loop...
 Line 8: parsed 25 columns
 Read line 9 with length: 49
 Parsing line 9
-Line content: [1,0,0,0,1,0,1,0,1,0,1,0,0,0,0,1,0,1,0,1,1,0,0,0,1]
+Line content: [1,0,0,0,1,0,1,0,1,0,0,0,1,0,0,0,1,0,1,0,1,0,0,0,1]
 Creating stringstream...
 Stringstream created, starting cell loop...
   Cell 1: '1'
@@ -684,36 +684,36 @@ Stringstream created, starting cell loop...
   Cell 10: '0'
   Cell 10 after trim: '0'
   Cell 10 converted to: 0
-  Cell 11: '1'
-  Cell 11 after trim: '1'
-  Cell 11 converted to: 1
+  Cell 11: '0'
+  Cell 11 after trim: '0'
+  Cell 11 converted to: 0
   Cell 12: '0'
   Cell 12 after trim: '0'
   Cell 12 converted to: 0
-  Cell 13: '0'
-  Cell 13 after trim: '0'
-  Cell 13 converted to: 0
+  Cell 13: '1'
+  Cell 13 after trim: '1'
+  Cell 13 converted to: 1
   Cell 14: '0'
   Cell 14 after trim: '0'
   Cell 14 converted to: 0
   Cell 15: '0'
   Cell 15 after trim: '0'
   Cell 15 converted to: 0
-  Cell 16: '1'
-  Cell 16 after trim: '1'
-  Cell 16 converted to: 1
-  Cell 17: '0'
-  Cell 17 after trim: '0'
-  Cell 17 converted to: 0
-  Cell 18: '1'
-  Cell 18 after trim: '1'
-  Cell 18 converted to: 1
-  Cell 19: '0'
-  Cell 19 after trim: '0'
-  Cell 19 converted to: 0
-  Cell 20: '1'
-  Cell 20 after trim: '1'
-  Cell 20 converted to: 1
+  Cell 16: '0'
+  Cell 16 after trim: '0'
+  Cell 16 converted to: 0
+  Cell 17: '1'
+  Cell 17 after trim: '1'
+  Cell 17 converted to: 1
+  Cell 18: '0'
+  Cell 18 after trim: '0'
+  Cell 18 converted to: 0
+  Cell 19: '1'
+  Cell 19 after trim: '1'
+  Cell 19 converted to: 1
+  Cell 20: '0'
+  Cell 20 after trim: '0'
+  Cell 20 converted to: 0
   Cell 21: '1'
   Cell 21 after trim: '1'
   Cell 21 converted to: 1
@@ -732,7 +732,7 @@ Stringstream created, starting cell loop...
 Line 9: parsed 25 columns
 Read line 10 with length: 49
 Parsing line 10
-Line content: [1,0,1,0,0,0,1,0,1,0,0,0,1,1,0,0,0,1,0,0,0,0,1,0,1]
+Line content: [1,0,1,0,0,0,0,0,0,0,1,0,1,0,1,0,0,0,0,0,0,0,1,0,1]
 Creating stringstream...
 Stringstream created, starting cell loop...
   Cell 1: '1'
@@ -753,42 +753,42 @@ Stringstream created, starting cell loop...
   Cell 6: '0'
   Cell 6 after trim: '0'
   Cell 6 converted to: 0
-  Cell 7: '1'
-  Cell 7 after trim: '1'
-  Cell 7 converted to: 1
+  Cell 7: '0'
+  Cell 7 after trim: '0'
+  Cell 7 converted to: 0
   Cell 8: '0'
   Cell 8 after trim: '0'
   Cell 8 converted to: 0
-  Cell 9: '1'
-  Cell 9 after trim: '1'
-  Cell 9 converted to: 1
+  Cell 9: '0'
+  Cell 9 after trim: '0'
+  Cell 9 converted to: 0
   Cell 10: '0'
   Cell 10 after trim: '0'
   Cell 10 converted to: 0
-  Cell 11: '0'
-  Cell 11 after trim: '0'
-  Cell 11 converted to: 0
+  Cell 11: '1'
+  Cell 11 after trim: '1'
+  Cell 11 converted to: 1
   Cell 12: '0'
   Cell 12 after trim: '0'
   Cell 12 converted to: 0
   Cell 13: '1'
   Cell 13 after trim: '1'
   Cell 13 converted to: 1
-  Cell 14: '1'
-  Cell 14 after trim: '1'
-  Cell 14 converted to: 1
-  Cell 15: '0'
-  Cell 15 after trim: '0'
-  Cell 15 converted to: 0
+  Cell 14: '0'
+  Cell 14 after trim: '0'
+  Cell 14 converted to: 0
+  Cell 15: '1'
+  Cell 15 after trim: '1'
+  Cell 15 converted to: 1
   Cell 16: '0'
   Cell 16 after trim: '0'
   Cell 16 converted to: 0
   Cell 17: '0'
   Cell 17 after trim: '0'
   Cell 17 converted to: 0
-  Cell 18: '1'
-  Cell 18 after trim: '1'
-  Cell 18 converted to: 1
+  Cell 18: '0'
+  Cell 18 after trim: '0'
+  Cell 18 converted to: 0
   Cell 19: '0'
   Cell 19 after trim: '0'
   Cell 19 converted to: 0
@@ -813,7 +813,7 @@ Stringstream created, starting cell loop...
 Line 10: parsed 25 columns
 Read line 11 with length: 49
 Parsing line 11
-Line content: [1,0,1,1,1,0,1,1,1,0,1,0,0,0,0,1,0,1,1,0,1,1,1,0,1]
+Line content: [1,0,1,1,0,1,1,1,0,1,1,0,1,0,1,1,0,1,1,1,0,1,1,0,1]
 Creating stringstream...
 Stringstream created, starting cell loop...
   Cell 1: '1'
@@ -828,39 +828,39 @@ Stringstream created, starting cell loop...
   Cell 4: '1'
   Cell 4 after trim: '1'
   Cell 4 converted to: 1
-  Cell 5: '1'
-  Cell 5 after trim: '1'
-  Cell 5 converted to: 1
-  Cell 6: '0'
-  Cell 6 after trim: '0'
-  Cell 6 converted to: 0
+  Cell 5: '0'
+  Cell 5 after trim: '0'
+  Cell 5 converted to: 0
+  Cell 6: '1'
+  Cell 6 after trim: '1'
+  Cell 6 converted to: 1
   Cell 7: '1'
   Cell 7 after trim: '1'
   Cell 7 converted to: 1
   Cell 8: '1'
   Cell 8 after trim: '1'
   Cell 8 converted to: 1
-  Cell 9: '1'
-  Cell 9 after trim: '1'
-  Cell 9 converted to: 1
-  Cell 10: '0'
-  Cell 10 after trim: '0'
-  Cell 10 converted to: 0
+  Cell 9: '0'
+  Cell 9 after trim: '0'
+  Cell 9 converted to: 0
+  Cell 10: '1'
+  Cell 10 after trim: '1'
+  Cell 10 converted to: 1
   Cell 11: '1'
   Cell 11 after trim: '1'
   Cell 11 converted to: 1
   Cell 12: '0'
   Cell 12 after trim: '0'
   Cell 12 converted to: 0
-  Cell 13: '0'
-  Cell 13 after trim: '0'
-  Cell 13 converted to: 0
+  Cell 13: '1'
+  Cell 13 after trim: '1'
+  Cell 13 converted to: 1
   Cell 14: '0'
   Cell 14 after trim: '0'
   Cell 14 converted to: 0
-  Cell 15: '0'
-  Cell 15 after trim: '0'
-  Cell 15 converted to: 0
+  Cell 15: '1'
+  Cell 15 after trim: '1'
+  Cell 15 converted to: 1
   Cell 16: '1'
   Cell 16 after trim: '1'
   Cell 16 converted to: 1
@@ -873,12 +873,12 @@ Stringstream created, starting cell loop...
   Cell 19: '1'
   Cell 19 after trim: '1'
   Cell 19 converted to: 1
-  Cell 20: '0'
-  Cell 20 after trim: '0'
-  Cell 20 converted to: 0
-  Cell 21: '1'
-  Cell 21 after trim: '1'
-  Cell 21 converted to: 1
+  Cell 20: '1'
+  Cell 20 after trim: '1'
+  Cell 20 converted to: 1
+  Cell 21: '0'
+  Cell 21 after trim: '0'
+  Cell 21 converted to: 0
   Cell 22: '1'
   Cell 22 after trim: '1'
   Cell 22 converted to: 1
@@ -894,7 +894,7 @@ Stringstream created, starting cell loop...
 Line 11: parsed 25 columns
 Read line 12 with length: 49
 Parsing line 12
-Line content: [1,0,0,0,0,0,0,0,1,0,1,1,1,1,1,1,0,1,0,0,0,0,0,0,1]
+Line content: [1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,1]
 Creating stringstream...
 Stringstream created, starting cell loop...
   Cell 1: '1'
@@ -921,36 +921,36 @@ Stringstream created, starting cell loop...
   Cell 8: '0'
   Cell 8 after trim: '0'
   Cell 8 converted to: 0
-  Cell 9: '1'
-  Cell 9 after trim: '1'
-  Cell 9 converted to: 1
+  Cell 9: '0'
+  Cell 9 after trim: '0'
+  Cell 9 converted to: 0
   Cell 10: '0'
   Cell 10 after trim: '0'
   Cell 10 converted to: 0
-  Cell 11: '1'
-  Cell 11 after trim: '1'
-  Cell 11 converted to: 1
-  Cell 12: '1'
-  Cell 12 after trim: '1'
-  Cell 12 converted to: 1
+  Cell 11: '0'
+  Cell 11 after trim: '0'
+  Cell 11 converted to: 0
+  Cell 12: '0'
+  Cell 12 after trim: '0'
+  Cell 12 converted to: 0
   Cell 13: '1'
   Cell 13 after trim: '1'
   Cell 13 converted to: 1
-  Cell 14: '1'
-  Cell 14 after trim: '1'
-  Cell 14 converted to: 1
-  Cell 15: '1'
-  Cell 15 after trim: '1'
-  Cell 15 converted to: 1
-  Cell 16: '1'
-  Cell 16 after trim: '1'
-  Cell 16 converted to: 1
+  Cell 14: '0'
+  Cell 14 after trim: '0'
+  Cell 14 converted to: 0
+  Cell 15: '0'
+  Cell 15 after trim: '0'
+  Cell 15 converted to: 0
+  Cell 16: '0'
+  Cell 16 after trim: '0'
+  Cell 16 converted to: 0
   Cell 17: '0'
   Cell 17 after trim: '0'
   Cell 17 converted to: 0
-  Cell 18: '1'
-  Cell 18 after trim: '1'
-  Cell 18 converted to: 1
+  Cell 18: '0'
+  Cell 18 after trim: '0'
+  Cell 18 converted to: 0
   Cell 19: '0'
   Cell 19 after trim: '0'
   Cell 19 converted to: 0

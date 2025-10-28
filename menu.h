@@ -41,7 +41,8 @@ enum class MainMenuOption
     DIFFICULTY = 2,
     HIGH_SCORES = 3,
     SETTINGS = 4,
-    COUNT = 5 ///< Total number of options
+    QUIT = 5,
+    COUNT = 6 ///< Total number of options
 };
 
 /**
@@ -136,6 +137,12 @@ public:
     void reset_game_start_flag() { should_start_game_ = false; }
 
     /**
+     * @brief Check if the game should quit
+     * @return true if quit was selected, false otherwise
+     */
+    bool should_quit_game() const { return should_quit_; }
+
+    /**
      * @brief Get the selected Pac-Man palette name
      * @return The currently selected palette name
      */
@@ -192,6 +199,7 @@ private:
     MenuState current_state_;          ///< Current menu screen
     int selected_option_;              ///< Currently selected option (0-indexed)
     bool should_start_game_;           ///< Flag to signal game should start
+    bool should_quit_;                 ///< Flag to signal game should quit
     int selected_palette_index_;       ///< Index of the selected Pac-Man color palette
     SpriteSheet *sprite_sheet_;        ///< Pointer to sprite sheet for rendering preview
     SoundManager *sound_manager_;      ///< Pointer to sound manager for menu sounds

@@ -85,6 +85,8 @@ private:
     // === Game State ===
     bool running_;                ///< Whether the game is currently running
     bool game_initialized_;       ///< Whether game entities have been created
+    bool paused_;                 ///< Whether the game is currently paused
+    double escape_key_cooldown_;  ///< Cooldown timer for escape key to prevent double-triggering
     double last_time_;            ///< Last update time for delta calculation
     GameMode current_game_mode_;  ///< Current game mode (starting, normal, power, etc.)
     GameMode previous_game_mode_; ///< Previous mode for detecting transitions
