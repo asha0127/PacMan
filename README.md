@@ -82,6 +82,22 @@ clang++ -std=c++17 main.cpp game.cpp menu.cpp entities.cpp maze.cpp \
   -lSplashKit -o pacman
 ```
 
+## Running the Game
+
+A precompiled executable is included in the repository:
+
+### Windows
+```bash
+./pacman.exe
+```
+
+### Linux/macOS
+```bash
+./pacman
+```
+
+**Note**: If you encounter issues running the precompiled executable (e.g., missing dependencies or different system architecture), you will need to recompile from source using the instructions above.
+
 ## How to Play
 
 ### Controls
