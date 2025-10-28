@@ -2,5 +2,6 @@
 v*.exe
 
 # Ignore debug and log files
-maze_debug.txt
 myeasylog.log
+consolidated_code
+
