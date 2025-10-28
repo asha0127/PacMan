@@ -1,2 +1,6 @@
 # Ignore all vx.exe files (v1.exe, v2.exe, ..., v99.exe, etc.)
 v*.exe
+
+# Ignore debug and log files
+maze_debug.txt
+myeasylog.log
